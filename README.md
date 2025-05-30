@@ -1,12 +1,35 @@
-# React + Vite
+# Accent Analyzer — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This branch contains the **React** UI for the Accent Analyzer project.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js ≥16.x and npm
+- A running backend API (see the `backend` branch)
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies**  
+   ```bash
+   npm install
+Configure API URL
+Copy .env.example to .env and set:
+
+ini
+Copy
+Edit
+VITE_API=https://your-backend.example.com/api
+Run in development
+
+bash
+Copy
+Edit
+npm run dev
+Visit: http://localhost:5173
+
+Build for production
+
+bash
+Copy
+Edit
+npm run build
