@@ -20,7 +20,7 @@ A web application that classifies English accents from video input. Users can pa
 
 ## Live Demo
 
-* **Frontend:** [https://your-frontend.vercel.app](https://your-frontend.vercel.app)
+* **Frontend:** [https://your-frontend.vercel.app](https://accent-classifier-68m6.vercel.app/)
 
 ---
 
